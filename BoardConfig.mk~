@@ -41,7 +41,7 @@ BLISS_STRICT:= true
 BLISS_O3 := true
 BLISS_GRAPHITE := true
 BLISS_PIPE := true
-TARGET_TC_ROM := 4.9-linaro
-TARGET_TC_KERNEL := 4.9-linaro
+TARGET_TC_ROM := 4.9-hybrid
+TARGET_TC_KERNEL := 4.9-hybrid
 TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 -include vendor/bliss/config/sm.mk
