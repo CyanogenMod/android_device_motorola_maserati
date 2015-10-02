@@ -1,6 +1,3 @@
-# system/usr
-usr/keylayout/atmxt-i2c.kl
-
 # system/lib/hw
 lib/hw/gps.maserati.so
 lib/hw/sensors.maserati.so
