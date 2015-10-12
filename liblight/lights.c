@@ -297,9 +297,11 @@ static int open_lights(const struct hw_module_t* module, char const* name,
     else if (0 == strcmp(LIGHT_ID_KEYBOARD, name)) {
         set_light = set_light_keyboard;
     }
+#ifdef LIGHT_ID_CAPS
     else if (0 == strcmp(LIGHT_ID_CAPS, name)) {
         set_light = set_light_caps;
     }
+#endif
     else if (0 == strcmp(LIGHT_ID_BUTTONS, name)) {
         set_light = set_light_buttons;
     }
