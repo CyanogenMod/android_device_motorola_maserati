@@ -1,5 +1,5 @@
 # system/lib/hw
-lib/hw/gps.maserati.so
+lib/hw/gps.vendor.so
 lib/hw/sensors.maserati.so
 
 # system/lib
