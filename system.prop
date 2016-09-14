@@ -199,3 +199,6 @@ ro.telephony.get_imsi_from_sim=true
 # Vold switchability uncomment second line to swap
 ro.vold.switchablepair=/storage/sdcard0,/storage/sdcard1
 #persist.sys.vold.switchexternal=1
+
+# keeping 75mb of physical ram free helps preventing ui freeze caused by kswapd direct reclaim + zram
+sys.sysctl.extra_free_kbytes=75000
